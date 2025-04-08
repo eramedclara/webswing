@@ -1,0 +1,1 @@
+(function(e){e([],function(){function t(){return function(e,t){if(e!=null&&e.indexOf("${")>-1)for(var n=0;n<3;n++){var i=e;for(var s in t)i=r(i,"${"+s+"}",t[s]);if(i===e)return i;e=i}return e}}function n(e){return e.replace(/([.*+?^=!:${}()|\[\]\/\\])/g,"\\$1")}function r(e,t,r){return e.replace(new RegExp(n(t),"g"),r)}return t})})(adminConsole.define);

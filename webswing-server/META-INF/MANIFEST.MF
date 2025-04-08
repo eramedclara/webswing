@@ -1,0 +1,15 @@
+Manifest-Version: 1.0
+Ant-Version: Apache Ant 1.8.2
+Created-By: Apache Maven 3.6.1
+Built-By: root
+Build-Jdk: 11.0.4
+Main-Class: main.Main
+Ignore-Scanning-Packages: com,org,net
+branch: master
+buildTime: 03.09.2019 @ 06:47:45 UTC
+commitId: 99094c8e8f1b37442942d635ea85f2b52a3d6211
+commitTime: 03.09.2019 @ 06:20:29 UTC
+describe: 2.6.5
+remoteOriginUrl: https://bitbucket.org/meszarv/webswing.git
+version: 2.6.5
+

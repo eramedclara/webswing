@@ -1,0 +1,1 @@
+(function(e){e([],function(){function n(){return t}function r(){t=!0}function i(){t=!1}var t=!1;return{isLoading:n,startLoading:r,stopLoading:i}})})(adminConsole.define);

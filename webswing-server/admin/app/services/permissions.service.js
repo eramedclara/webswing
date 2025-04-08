@@ -1,0 +1,1 @@
+(function(e){e([],function(){function t(e,t,n,r){function s(){function s(t){angular.merge(i,t.data),e.$broadcast("wsPermissionsReloaded",i)}function o(e){r.error("Failed to resolve permissions")}return n.get(t+"/rest/permissions").then(s,o)}var i={reload:s};return s(),i}return t.$inject=["$rootScope","baseUrl","$http","messageService"],t})})(adminConsole.define);

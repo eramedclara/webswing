@@ -1,0 +1,1 @@
+webswingRequirejs.define(["webswing-util"],function(t){return function(){function i(){var e=t.readCookie(r);return e!=null?e:(e=t.GUID(),t.createCookie(r,e,1),e)}function s(){t.eraseCookie(r)}var n=this;n.provides={get:i,dispose:s};var r="webswingID"}});
